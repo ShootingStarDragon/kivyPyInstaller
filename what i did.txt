@@ -1,0 +1,11 @@
+what I did:
+
+poetry add docutils pygments pypiwin32 kivy.deps.glew kivy.deps.gstreamer
+add 
+from kivy.tools.packaging.pyinstaller_hooks import get_deps_minimal, \
+    get_deps_all, hookspath, runtime_hooks
+to spec file at the top under `from kivy_deps import sdl2, glew, gstreamer`
+
+did i add kv file?
+do this command
+python -m PyInstaller KIVYWINDOWAPP.spec

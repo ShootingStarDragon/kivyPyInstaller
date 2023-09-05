@@ -1,0 +1,6 @@
+.venv
+build
+poetry.lock
+dist
+distold
+shootingstardragon.git

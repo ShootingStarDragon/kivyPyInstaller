@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "kivypyinstaller"
+version = "0.1.0"
+description = ""
+authors = ["ShootingStarDragon"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.7"
+pyinstaller = "^5.8.0"
+kivy = "^2.1.0"
+docutils = "^0.19"
+pygments = "^2.14.0"
+pypiwin32 = "^223"
+kivy-deps-glew = "^0.3.1"
+kivy-deps-gstreamer = "^0.3.3"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
